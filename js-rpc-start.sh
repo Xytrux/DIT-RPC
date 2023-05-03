@@ -8,17 +8,17 @@ if [ -d DIT-RPC ]; then
         [Yy]* ) echo "Deleting DIT-RPC folder..."; 
         rm -rf DIT-RPC
         git clone https://github.com/Xytrux/DIT-RPC.git
-        cd DIT-RPC
-        python3 main.py
+        cd DIT-RPC/JavaScript
+        node .
         break;;
         [Nn]* ) echo "Using current folder..."; 
-        cd DIT-RPC
-        python3 main.py
+        cd DIT-RPC/JavaScript
+        node .
         exit;;
         * ) echo "Please answer yes or no.";;
         esac
     done
 fi
 git clone https://github.com/Xytrux/DIT-RPC.git
-cd DIT-RPC
-python3 main.py
+cd DIT-RPC/JavaScript
+node .
