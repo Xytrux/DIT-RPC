@@ -16,6 +16,6 @@ while True:
         details = "Talk about tech and education!",
         #state = "",
         start = start,
-        buttons = [{"label": "Join D.I.T!", "url": "https://discord.gg/WdRhvcdqhK"}, {"label": "RPC Repository", "url": "https://github.com/Xytrux/DIT-RPC"}]
+        buttons = [{"label": "Join D.I.T!", "url": "https://discord.gg/WdRhvcdqhK"}, {"label": "Use this RPC yourself!", "url": "https://github.com/Xytrux/DIT-RPC"}]
     )
     time.sleep(60)
