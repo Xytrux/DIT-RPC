@@ -3,7 +3,7 @@
 cd
 if [ -d DIT-RPC ]; then
     while true; do
-    read -p "Found another folder (DIT-RPC) Do you want to delete it? (y/n) " yn
+    read -p "FDIT-RPC folder detected. Do you want to delete it? (y/n) " yn
     case $yn in
         [Yy]* ) echo "Deleting DIT-RPC folder..."; 
         rm -rf DIT-RPC
