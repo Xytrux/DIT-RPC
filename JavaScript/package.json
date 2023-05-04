@@ -1,0 +1,15 @@
+{
+    "name": "RPC",
+    "version": "1.0.0",
+    "description": "A Fully Customizable Discord Rich Presence",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"All Test Passed\""
+    },
+    "keywords": [],
+    "author": "Xytrux",
+    "license": "None",
+    "dependencies": {
+        "discord-rpc": "^3.2.0"
+    }
+}
