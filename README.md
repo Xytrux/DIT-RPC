@@ -12,6 +12,13 @@ Then run the bash rpc script.
 
 `bash py-rpc-start.sh`
 
+or
+
+```
+sudo chmod -x py-rpc-start.sh
+./py-rpc-start
+```
+
 ## Javascript version
 
 Install JS
@@ -19,6 +26,13 @@ Install JS
 Then run the bash rpc script.
 
 `bash js-rpc-start.sh`
+
+or
+
+```
+sudo chmod -x js-rpc-start.sh
+./js-rpc-start
+```
 
 # No script
 Alternatively, you can run it without a script.
