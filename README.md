@@ -2,7 +2,8 @@
 
 Rich Presence for D.I.T
 
-# Prerequisites
+# Scripts
+Don't wanna go through the hassle? Use the scripts!
 
 ## Python version
 Install [Python](https://www.python.org/)
@@ -18,3 +19,39 @@ Install JS
 Then run the bash rpc script.
 
 `bash js-rpc-start.sh`
+
+# No script
+Alternatively, you can run it without a script.
+
+## Python version
+First change directory to Python
+```
+cd Python
+```
+
+then download the `pypresence` module.
+```
+pip install pypresence
+```
+
+then just run the file like so:
+```
+python3 Python/main.py
+```
+
+## Javascript version
+First change directory to Javascript.
+```
+cd JavaScript
+```
+
+then download everything needed
+```
+npm i
+```
+
+then just run the file
+
+```
+node .
+```
